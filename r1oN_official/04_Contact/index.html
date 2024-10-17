@@ -72,6 +72,7 @@
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="r1oN ~contact~">
         <meta property="og:description" content="イラストレーターr1oNの問い合わせページです。">
+        <meta property="og:image" content="./images/r1oN.png">
         <meta property="og:locale" content="ja_JP">
         <meta name="twitter:card" content="summary_large_image">
         
@@ -165,26 +166,28 @@
                         </div>  
                           
                 </section>
-                <section class="get-in-touch">
-                    
-                    <form class="contact-form row">
-                       <div class="form-field col x-50">
-                          <input id="name" class="input-text js-input" type="text" required>
-                          <label class="label" for="name">Name</label>
-                       </div>
-                       <div class="form-field col x-50">
-                          <input id="email" class="input-text js-input" type="email" required>
-                          <label class="label" for="email">E-mail</label>
-                       </div>
-                       <div class="form-field col x-100">
-                          <input id="message" class="input-text js-input" type="text" required>
-                          <label class="label" for="message">Message</label>
-                       </div>
-                       <div class="form-field col x-100 align-center">
-                          <input class="submit-btn" type="submit" value="Submit">
-                       </div>
-                    </form>
-                 </section>
+                
+                 <form>
+                    <div class="inputs">
+                        <label class="label">お名前</label>
+                        <input class="input_form" type="text" name="name">
+                    </div>
+                　　　　 <div class="inputs">
+                        <label class="label">年齢</label>
+                        <input class="input_form" type="number" name="age">
+                    </div>
+                    <div class="inputs">
+                         <label class="label">メールアドレス</label>
+                         <input class="input_form" type="email" name="email">
+                    </div>
+                    <div class="inputs">
+                         <label class="label">お問い合わせ内容</label>
+                         <textarea class="input_form"></textarea>
+                    </div>
+                    <div class="btn-area">
+                        <input type="reset" value="リセット"><input type="submit" value="送信">
+                    </div>
+                </form>
                 
                 
                 <script src="https://unpkg.com/scrollreveal"></script>

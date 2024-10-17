@@ -41,6 +41,14 @@ html {
   margin-left: 10px;
   width:40%;
 }
+.column-60 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  width : 50%;
+  transform: translateX(5%);
+ }
 .name {
   font-size: 30px;
   margin-bottom: 20px;
@@ -90,6 +98,13 @@ html {
   border-bottom: solid 2px #199999;
   margin-top: 40px;
 }
+.game-box4 {
+  background-color: #dff2f8;
+  border-top: solid 2px #199999;
+  border-bottom: solid 2px #199999;
+  margin-top: 40px;
+}
+
 
 /*サイドバー*/
 .sideBar {
@@ -274,6 +289,11 @@ color:#343d5c;
   width : 90%;
   transform: translateX(5%);
  }
+ .column-60 {
+  font-size: 30px;
+  width : 50%;
+  transform: translateX(5%);
+ }
 .copyright{
     font-size : 30px;
 }
@@ -303,6 +323,10 @@ color:#343d5c;
   width : 90%;
   transform: translateX(5%);
  }
-
+ .column-60 {
+  font-size: 70px;
+  width : 50%;
+  transform: translateX(5%);
+ }
 }
 }
